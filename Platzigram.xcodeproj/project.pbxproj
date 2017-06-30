@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B179BE61F046BD4004782D4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B179BE51F046BD4004782D4 /* RegisterViewController.swift */; };
+		5B179BE81F048079004782D4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B179BE71F048079004782D4 /* WelcomeViewController.swift */; };
+		5B5180811F035F550040A11B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5180801F035F550040A11B /* AppDelegate.swift */; };
+		5B5180831F035F550040A11B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5180821F035F550040A11B /* ViewController.swift */; };
+		5B5180861F035F550040A11B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5180841F035F550040A11B /* Main.storyboard */; };
+		5B5180891F035F550040A11B /* Platzigram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B5180871F035F550040A11B /* Platzigram.xcdatamodeld */; };
+		5B51808B1F035F550040A11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B51808A1F035F550040A11B /* Assets.xcassets */; };
+		5B51808E1F035F550040A11B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51808C1F035F550040A11B /* LaunchScreen.storyboard */; };
+		5B5180991F035F550040A11B /* PlatzigramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5180981F035F550040A11B /* PlatzigramTests.swift */; };
+		5B5180A41F035F550040A11B /* PlatzigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5180A31F035F550040A11B /* PlatzigramUITests.swift */; };
+		5BB8A1E91F05F025002B9B74 /* PlatzigramTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB8A1E81F05F025002B9B74 /* PlatzigramTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B5180951F035F550040A11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5180751F035F550040A11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B51807C1F035F550040A11B;
+			remoteInfo = Platzigram;
+		};
+		5B5180A01F035F550040A11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5180751F035F550040A11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B51807C1F035F550040A11B;
+			remoteInfo = Platzigram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B179BE51F046BD4004782D4 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5B179BE71F048079004782D4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5B51807D1F035F550040A11B /* Platzigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platzigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5180801F035F550040A11B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B5180821F035F550040A11B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B5180851F035F550040A11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B5180881F035F550040A11B /* Platzigram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Platzigram.xcdatamodel; sourceTree = "<group>"; };
+		5B51808A1F035F550040A11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B51808D1F035F550040A11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B51808F1F035F550040A11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5180941F035F550040A11B /* PlatzigramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatzigramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5180981F035F550040A11B /* PlatzigramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatzigramTests.swift; sourceTree = "<group>"; };
+		5B51809A1F035F550040A11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B51809F1F035F550040A11B /* PlatzigramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatzigramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5180A31F035F550040A11B /* PlatzigramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatzigramUITests.swift; sourceTree = "<group>"; };
+		5B5180A51F035F550040A11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB8A1E81F05F025002B9B74 /* PlatzigramTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatzigramTabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B51807A1F035F550040A11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5180911F035F550040A11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B51809C1F035F550040A11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B5180741F035F550040A11B = {
+			isa = PBXGroup;
+			children = (
+				5B51807F1F035F550040A11B /* Platzigram */,
+				5B5180971F035F550040A11B /* PlatzigramTests */,
+				5B5180A21F035F550040A11B /* PlatzigramUITests */,
+				5B51807E1F035F550040A11B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B51807E1F035F550040A11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B51807D1F035F550040A11B /* Platzigram.app */,
+				5B5180941F035F550040A11B /* PlatzigramTests.xctest */,
+				5B51809F1F035F550040A11B /* PlatzigramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B51807F1F035F550040A11B /* Platzigram */ = {
+			isa = PBXGroup;
+			children = (
+				5B5180801F035F550040A11B /* AppDelegate.swift */,
+				5B5180821F035F550040A11B /* ViewController.swift */,
+				5B5180841F035F550040A11B /* Main.storyboard */,
+				5BB8A1E81F05F025002B9B74 /* PlatzigramTabBarController.swift */,
+				5B179BE71F048079004782D4 /* WelcomeViewController.swift */,
+				5B179BE51F046BD4004782D4 /* RegisterViewController.swift */,
+				5B51808A1F035F550040A11B /* Assets.xcassets */,
+				5B51808C1F035F550040A11B /* LaunchScreen.storyboard */,
+				5B51808F1F035F550040A11B /* Info.plist */,
+				5B5180871F035F550040A11B /* Platzigram.xcdatamodeld */,
+			);
+			path = Platzigram;
+			sourceTree = "<group>";
+		};
+		5B5180971F035F550040A11B /* PlatzigramTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B5180981F035F550040A11B /* PlatzigramTests.swift */,
+				5B51809A1F035F550040A11B /* Info.plist */,
+			);
+			path = PlatzigramTests;
+			sourceTree = "<group>";
+		};
+		5B5180A21F035F550040A11B /* PlatzigramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B5180A31F035F550040A11B /* PlatzigramUITests.swift */,
+				5B5180A51F035F550040A11B /* Info.plist */,
+			);
+			path = PlatzigramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B51807C1F035F550040A11B /* Platzigram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5180A81F035F550040A11B /* Build configuration list for PBXNativeTarget "Platzigram" */;
+			buildPhases = (
+				5B5180791F035F550040A11B /* Sources */,
+				5B51807A1F035F550040A11B /* Frameworks */,
+				5B51807B1F035F550040A11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Platzigram;
+			productName = Platzigram;
+			productReference = 5B51807D1F035F550040A11B /* Platzigram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B5180931F035F550040A11B /* PlatzigramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5180AB1F035F550040A11B /* Build configuration list for PBXNativeTarget "PlatzigramTests" */;
+			buildPhases = (
+				5B5180901F035F550040A11B /* Sources */,
+				5B5180911F035F550040A11B /* Frameworks */,
+				5B5180921F035F550040A11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B5180961F035F550040A11B /* PBXTargetDependency */,
+			);
+			name = PlatzigramTests;
+			productName = PlatzigramTests;
+			productReference = 5B5180941F035F550040A11B /* PlatzigramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B51809E1F035F550040A11B /* PlatzigramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5180AE1F035F550040A11B /* Build configuration list for PBXNativeTarget "PlatzigramUITests" */;
+			buildPhases = (
+				5B51809B1F035F550040A11B /* Sources */,
+				5B51809C1F035F550040A11B /* Frameworks */,
+				5B51809D1F035F550040A11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B5180A11F035F550040A11B /* PBXTargetDependency */,
+			);
+			name = PlatzigramUITests;
+			productName = PlatzigramUITests;
+			productReference = 5B51809F1F035F550040A11B /* PlatzigramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B5180751F035F550040A11B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rodrigo salvador Hernandez Menjivar";
+				TargetAttributes = {
+					5B51807C1F035F550040A11B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A6KS7V76Q2;
+						ProvisioningStyle = Automatic;
+					};
+					5B5180931F035F550040A11B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A6KS7V76Q2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B51807C1F035F550040A11B;
+					};
+					5B51809E1F035F550040A11B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A6KS7V76Q2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B51807C1F035F550040A11B;
+					};
+				};
+			};
+			buildConfigurationList = 5B5180781F035F550040A11B /* Build configuration list for PBXProject "Platzigram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B5180741F035F550040A11B;
+			productRefGroup = 5B51807E1F035F550040A11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B51807C1F035F550040A11B /* Platzigram */,
+				5B5180931F035F550040A11B /* PlatzigramTests */,
+				5B51809E1F035F550040A11B /* PlatzigramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B51807B1F035F550040A11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B51808E1F035F550040A11B /* LaunchScreen.storyboard in Resources */,
+				5B51808B1F035F550040A11B /* Assets.xcassets in Resources */,
+				5B5180861F035F550040A11B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5180921F035F550040A11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B51809D1F035F550040A11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B5180791F035F550040A11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5180831F035F550040A11B /* ViewController.swift in Sources */,
+				5B179BE81F048079004782D4 /* WelcomeViewController.swift in Sources */,
+				5BB8A1E91F05F025002B9B74 /* PlatzigramTabBarController.swift in Sources */,
+				5B5180891F035F550040A11B /* Platzigram.xcdatamodeld in Sources */,
+				5B5180811F035F550040A11B /* AppDelegate.swift in Sources */,
+				5B179BE61F046BD4004782D4 /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5180901F035F550040A11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5180991F035F550040A11B /* PlatzigramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B51809B1F035F550040A11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5180A41F035F550040A11B /* PlatzigramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B5180961F035F550040A11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B51807C1F035F550040A11B /* Platzigram */;
+			targetProxy = 5B5180951F035F550040A11B /* PBXContainerItemProxy */;
+		};
+		5B5180A11F035F550040A11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B51807C1F035F550040A11B /* Platzigram */;
+			targetProxy = 5B5180A01F035F550040A11B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B5180841F035F550040A11B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5180851F035F550040A11B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B51808C1F035F550040A11B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B51808D1F035F550040A11B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B5180A61F035F550040A11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B5180A71F035F550040A11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B5180A91F035F550040A11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6KS7V76Q2;
+				INFOPLIST_FILE = Platzigram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginsv.Platzigram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5B5180AA1F035F550040A11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6KS7V76Q2;
+				INFOPLIST_FILE = Platzigram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginsv.Platzigram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5B5180AC1F035F550040A11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A6KS7V76Q2;
+				INFOPLIST_FILE = PlatzigramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginsv.PlatzigramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Platzigram.app/Platzigram";
+			};
+			name = Debug;
+		};
+		5B5180AD1F035F550040A11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A6KS7V76Q2;
+				INFOPLIST_FILE = PlatzigramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginsv.PlatzigramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Platzigram.app/Platzigram";
+			};
+			name = Release;
+		};
+		5B5180AF1F035F550040A11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A6KS7V76Q2;
+				INFOPLIST_FILE = PlatzigramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginsv.PlatzigramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Platzigram;
+			};
+			name = Debug;
+		};
+		5B5180B01F035F550040A11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A6KS7V76Q2;
+				INFOPLIST_FILE = PlatzigramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginsv.PlatzigramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Platzigram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B5180781F035F550040A11B /* Build configuration list for PBXProject "Platzigram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5180A61F035F550040A11B /* Debug */,
+				5B5180A71F035F550040A11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5180A81F035F550040A11B /* Build configuration list for PBXNativeTarget "Platzigram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5180A91F035F550040A11B /* Debug */,
+				5B5180AA1F035F550040A11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5180AB1F035F550040A11B /* Build configuration list for PBXNativeTarget "PlatzigramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5180AC1F035F550040A11B /* Debug */,
+				5B5180AD1F035F550040A11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5180AE1F035F550040A11B /* Build configuration list for PBXNativeTarget "PlatzigramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5180AF1F035F550040A11B /* Debug */,
+				5B5180B01F035F550040A11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B5180871F035F550040A11B /* Platzigram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B5180881F035F550040A11B /* Platzigram.xcdatamodel */,
+			);
+			currentVersion = 5B5180881F035F550040A11B /* Platzigram.xcdatamodel */;
+			path = Platzigram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B5180751F035F550040A11B /* Project object */;
+}
